@@ -4,17 +4,17 @@ layout: default
  
  This is a paragraph. Text can also be *italicized*, **bold**, <ins>underlined</ins>, <sup>superscripts</sup>, <sub>subscripts</sub>, and contain [links](/). This theme supports light and dark modes.
 
- # H1
+# H1
 
- ## H2
+## H2
 
- ### H3
+### H3
 
- #### H4
+#### H4
 
- ##### H5
+##### H5
 
- ###### H6
+###### H6
 
 ```python
 # Comments are also formatted.
@@ -45,7 +45,7 @@ print(message);
     - Example
         1. Example
         2. Example
-        
+
 <dl>
     <dt>Description Term Example</dt>
     <dd>This is an example of a description detail. Description lists can have multiple terms and descriptions for one item.</dd>
