@@ -23,23 +23,23 @@
 
 @keyframes colorize-frame {
     0%, 100% {
-        border-color: rgba(255, 0, 0, var(--post-border-opacity));
-        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(139, 0, 0, var(--post-shadow-opacity));
+        border-color: rgba(255, 0, 0, var(--frame-opacity));
+        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(139, 0, 0, var(--frame-shadow-opacity));
     }
     20% {
-        border-color: rgba(255, 165, 0, var(--post-border-opacity));
-        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(255, 140, 0, var(--post-shadow-opacity));
+        border-color: rgba(255, 165, 0, var(--frame-opacity));
+        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(255, 140, 0, var(--frame-shadow-opacity));
     }
     40% {
-        border-color: rgba(0, 128, 0, var(--post-border-opacity));
-        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(0, 100, 0, var(--post-shadow-opacity));
+        border-color: rgba(0, 128, 0, var(--frame-opacity));
+        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(0, 100, 0, var(--frame-shadow-opacity));
     }
     60% {
-        border-color: rgba(0, 0, 255, var(--post-border-opacity));
-        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(0, 0, 139, var(--post-shadow-opacity));
+        border-color: rgba(0, 0, 255, var(--frame-opacity));
+        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(0, 0, 139, var(--frame-shadow-opacity));
     }
     80% {
-        border-color: rgba(238, 130, 238, var(--post-border-opacity));
-        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(148, 0, 211, var(--post-shadow-opacity));
+        border-color: rgba(238, 130, 238, var(--frame-opacity));
+        box-shadow: 0 calc(var(--shadow-length) * 1.5) rgba(148, 0, 211, var(--frame-shadow-opacity));
     }
 }

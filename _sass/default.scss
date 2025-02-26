@@ -16,6 +16,7 @@
     color-scheme: light dark;
     --shadow-length: .25rem;
     --post-radius: 1rem;
+    --post-transition-speed: 250ms;
 }
 
 header,
@@ -281,7 +282,7 @@ article img {
 .post:hover,
 div.highlight:hover,
 article img:hover {
-    --post-border-opacity: 1;
-    --post-shadow-opacity: 1;
+    --frame-opacity: 1;
+    --frame-shadow-opacity: 1;
     transform: translateY(-.25rem);
 }
