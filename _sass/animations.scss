@@ -1,0 +1,22 @@
+@keyframes colorize-title {
+    0%, 100% {
+        color: red;
+        text-shadow: 0 calc(var(--shadow-length) / 1.5) darkred;
+    }
+    20% {
+        color: orange;
+        text-shadow: 0 calc(var(--shadow-length) / 1.5) darkorange;
+    }
+    40% {
+        color: green;
+        text-shadow: 0 calc(var(--shadow-length) / 1.5) darkgreen;
+    }
+    60% {
+        color: blue;
+        text-shadow: 0 calc(var(--shadow-length) / 1.5) darkblue;
+    }
+    80% {
+        color: violet;
+        text-shadow: 0 calc(var(--shadow-length) / 1.5) darkviolet;
+    }
+}
