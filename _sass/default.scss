@@ -15,6 +15,7 @@
     font-family: 'Apfel Grotezk Regular';
     color-scheme: light dark;
     --shadow-length: .25rem;
+    --post-radius: 1rem;
 }
 
 header,
@@ -266,6 +267,8 @@ div.highlight {
 .post,
 div.highlight,
 article img {
+    border-radius: var(--post-radius);
+    border-style: solid;
     --post-border-opacity: .5;
     --post-shadow-opacity: .5;
     transition: transform linear var(--post-transition-speed), --post-border-opacity linear var(--post-transition-speed), --post-shadow-opacity linear var(--post-transition-speed);
