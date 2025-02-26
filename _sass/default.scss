@@ -1,3 +1,16 @@
+@property --frame-opacity {
+    syntax: "<number>";
+    initial-value: .5;
+    inherits: false;
+}
+
+@property --frame-shadow-opacity {
+    syntax: "<number>";
+    initial-value: .5;
+    inherits: false;
+}
+
+
 :root {
     font-family: 'Apfel Grotezk Regular';
     color-scheme: light dark;
@@ -248,4 +261,24 @@ pre.highlight {
 
 div.highlight {
     border-radius: 1rem;
+}
+
+.post,
+div.highlight,
+article img {
+    --post-border-opacity: .5;
+    --post-shadow-opacity: .5;
+    transition: transform linear var(--post-transition-speed), --post-border-opacity linear var(--post-transition-speed), --post-shadow-opacity linear var(--post-transition-speed);
+    animation-name: colorize-frame;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.post:hover,
+div.highlight:hover,
+article img:hover {
+    --post-border-opacity: 1;
+    --post-shadow-opacity: 1;
+    transform: translateY(-.25rem);
 }
