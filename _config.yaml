@@ -1,2 +1,8 @@
 title: theme.buddydude.dev
 author: Devon Ducharme
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
