@@ -266,7 +266,7 @@ div.highlight {
 }
 
 .post,
-div.highlight,
+pre.highlight,
 article img {
     border-radius: var(--post-radius);
     border-style: solid;
@@ -280,7 +280,7 @@ article img {
 }
 
 .post:hover,
-div.highlight:hover,
+pre.highlight:hover,
 article img:hover {
     --frame-opacity: 1;
     --frame-shadow-opacity: 1;
