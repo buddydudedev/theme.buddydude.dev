@@ -1,3 +1,40 @@
+:root {
+    font-family: 'Apfel Grotezk Regular';
+    color-scheme: light dark;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Apfel Grotezk Fett';
+}
+
+pre, code {
+    font-family: 'Necto Mono';
+}
+
+footer {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    span {
+        font-family: 'Apfel Grotezk Satt';
+        font-size: 3rem;
+    }
+}
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .cm {
@@ -193,6 +230,7 @@
 .highlight .w {
   color: #bbbbbb;
 }
-// .highlight {
-//   background-color: #f8f8f8;
-// }
+
+.highlight {
+  background-color: rgba(0, 0, 0, .25);
+}
